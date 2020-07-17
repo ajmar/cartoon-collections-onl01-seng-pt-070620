@@ -16,6 +16,6 @@ def find_the_cheese(string)
   if string.include?("cheddar" "gouda" "camembert")
     return string(1)
   else
-    puts "None"
+    return "None"
   end
 end
