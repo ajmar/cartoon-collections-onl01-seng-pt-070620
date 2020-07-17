@@ -5,7 +5,7 @@ def roll_call_dwarves(name)
 end
 
 def summon_captain_planet(planeteer)
-  planeteer.map do {|word| word.upcase + "!"}
+  planeteer.map {|word| word.upcase + "!"}
   end
 end
 
