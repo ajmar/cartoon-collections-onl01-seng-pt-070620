@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(string)
   if string.include?("cheddar" "gouda" "camembert")
-    return string
+    return "Cheddar"
   else
     return nil
   end
