@@ -13,6 +13,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(string)
-  while string.include?("cheddar" "gouda" "camembert")
+  if string.include?("cheddar" "gouda" "camembert")
+    return string
   end
 end
