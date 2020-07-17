@@ -13,9 +13,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(string)
-  if string.include?("cheddar" "gouda" "camembert")
-    return "Cheddar"
-  else
-    return nil
-  end
+  string.include?("cheddar")
 end
